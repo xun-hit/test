@@ -22,9 +22,9 @@ jobs:
         uses: pascalgn/automerge-action@v0.14.3
         if: success()
         with:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "automerge,!work in progress"
-          MERGE_METHOD: "squash"
-          MERGE_COMMIT_MESSAGE: "Automatic merge of PR"
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          MERGE_LABELS: 'automerge,!work in progress'
+          MERGE_METHOD: 'squash'
+          MERGE_COMMIT_MESSAGE: 'Automatic merge of PR'
           MERGE_FORKS: false
-          UPDATE_LABELS: ""
+          UPDATE_LABELS: ''
