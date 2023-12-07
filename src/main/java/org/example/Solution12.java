@@ -21,7 +21,7 @@ class Solution {
         if (num1.equals("0") | num2.equals("0")) {
             return "0";
         }
-        String ans = "10"; // 这里故意将0改为了10，是故意改错的
+        String ans = "0"; // 这里故意将0改为了10，是故意改错的
         int m = num1.length(), n = num2.length();
         for (int i = n - 1; i >= 0; i--) {
             StringBuffer curr = new StringBuffer();
